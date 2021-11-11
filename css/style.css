@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #e6e6fa;
+    font-size: 12px;
+    font-family: 'Azeret Mono', monospace;
+}
+.header {
+    text-align: center;
+}
+.content {
+    height: 400px;
+    width: 1000px;
+    border-radius: 15px;
+    margin: 20px auto;
+    background-color: #ecf5e8;
+    padding-left: 15px;
+    padding-top: 10px;
+    -webkit-box-shadow: 0px 0px 34px 9px rgba(137, 131, 129, 0.25);
+    -moz-box-shadow: 0px 0px 34px 9px rgba(137, 131, 129, 0.25);
+    box-shadow: 0px 0px 34px 9px rgba(137, 131, 129, 0.25);
+}
+.lesson {
+    transform: scale(1);
+    transition: all 0.5s;
+    height: 100px;
+    width: 230px;
+    border-radius: 5px;
+    background-color: white;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 34px 9px rgba(137, 131, 129, 0.25);
+    -moz-box-shadow: 0px 0px 34px 9px rgba(137, 131, 129, 0.25);
+    box-shadow: 0px 0px 34px 9px rgba(137, 131, 129, 0.25);
+}
+.lesson:hover {
+    transform: scale(1.2);
+}
+.l {
+    text-align: center;
+    border-bottom: 1px black solid;
+    padding-bottom: 28px;
+    padding-top: 10px;
+}
+.btn {
+    Text-decoration: none;
+    Padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px #1be2da solid;
+    margin: 6px;
+    float: left;
+    color: black;
+}
+.btnright {
+    float: left;
+    color: gray;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 2px;
+    padding-left: 58px;
+}
